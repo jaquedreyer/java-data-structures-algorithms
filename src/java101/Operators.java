@@ -59,3 +59,24 @@ public class Operators {
         }
     }
 
+
+class ComparisonExample {
+
+    public static void main(String[] args){
+        int value1 = 1;
+        int value2 = 2;
+        // Relational operators
+        if(value1 == value2)
+            System.out.println("value1 == value2");
+        if(value1 != value2)
+            System.out.println("value1 != value2");
+        if(value1 > value2)
+            System.out.println("value1 > value2");
+        if(value1 < value2)
+            System.out.println("value1 < value2");
+        if(value1 <= value2)
+            System.out.println("value1 <= value2");
+    }
+}
+
+
