@@ -13,6 +13,27 @@ public class Loops {
     }
 }
 
+class ForArray {
+    public static void main(String[] args) {
+        String[] namesArray = new String[5];
+
+        namesArray[0] = "Ana";
+        namesArray[1] = "Jaque";
+        // [2] = null
+        // [3] = null
+        namesArray[4] = "Beatriz";
+
+//        for (int myIterator = 0; myIterator < namesArray.length; myIterator++){
+//            System.out.println(namesArray[myIterator]);
+//        }
+
+        for (String names : namesArray){
+            System.out.println(names);
+        }
+    }
+}
+
+
 class ForEach {
     //TODO
 }
