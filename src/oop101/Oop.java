@@ -23,6 +23,13 @@ public class Oop {
         myTeslaCar.brake();
         myTeslaCar.stop();
         myBmwCar.brake();
+
+        // Inheritance
+        System.out.println("----- Inheritance examples -----");
+        LivingThingsAbstractClass me = new Human();
+        me.respiration();
+        me.growth();
+
     }
 }
 
