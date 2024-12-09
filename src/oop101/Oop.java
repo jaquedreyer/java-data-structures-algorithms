@@ -33,8 +33,17 @@ public class Oop {
 
         // Polymorphism
         // Uses those methods from inheritance to perform different tasks. This allows us to perform a single action in different ways
-        System.out.println("----- Polymorphism examples -----");
 
+        // Exception handling
+        System.out.println("----- Null pointer exception examples -----");
+        CarInterface myBrokenCar = null;
+        //myBrokenCar.speedUp(); // Cannot invoke "oop101.CarInterface.speedUp()" because "myBrokenCar" is null
+        // Try catch
+        try {
+            myBrokenCar.speedUp();
+        } catch (NullPointerException exception) {
+            System.out.println("The car is broken/null. I need to fix it!");
+        }
     }
 }
 
