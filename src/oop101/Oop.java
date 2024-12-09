@@ -25,10 +25,15 @@ public class Oop {
         myBmwCar.brake();
 
         // Inheritance
+        // Inherit attributes and methods from another class
         System.out.println("----- Inheritance examples -----");
         LivingThingsAbstractClass me = new Human();
         me.respiration();
         me.growth();
+
+        // Polymorphism
+        // Uses those methods from inheritance to perform different tasks. This allows us to perform a single action in different ways
+        System.out.println("----- Polymorphism examples -----");
 
     }
 }
