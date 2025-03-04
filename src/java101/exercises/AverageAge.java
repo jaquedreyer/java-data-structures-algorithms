@@ -19,5 +19,7 @@ public class AverageAge {
         double media = (double) (idade1 + idade2) / 2; // Casting
 
         System.out.printf("A idade média de %s e %s é de %.1f anos", nome1, nome2, media);
+
+        sc.close();
     }
 }
