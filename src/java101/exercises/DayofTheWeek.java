@@ -40,7 +40,7 @@ public class DayofTheWeek {
         }
 
 
-        System.out.println("Dia da semana: " + dia);
+        System.out.println("Dia da semana = " + dia);
 
         sc.close();
     }
